@@ -1,0 +1,19 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [ "4AFG3KK99M.com.rivian.ios.consumer.qa", "X9W35HT5QU.com.rivian.ios.consumer.qa", "39BPG64KGW.com.rivian.ios.consumer", "39BPG64KGW.com.rivian.ios.consumer.appium" ],
+                "components": [
+                    {
+                        "/": "/mobile/*"
+                        "comment": "Matches links for mobile consumer app"
+                    },
+                    {
+                        "exclude": true,
+                        "comment": "All other links will not support universal links."
+                    }
+                ]
+            }
+        ]
+    }
+}
